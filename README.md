@@ -1,13 +1,14 @@
 # A simple message app using reactjs, redux, and firebase.
 
-
 ###Getting Started###
-Checkout this repo. <br />
-Install depdencies. <br />
-Start Webpack with the following:
+Clone this repo. <br />
+Install dependencies. <br />
+Start Webpack. <br />
+
+Use the following git+npm commands:
 
 ```
-  > git https://github.com/chrisVillanueva/react-redux-firebase-message-example.git
+  > git clone https://github.com/chrisVillanueva/react-redux-firebase-message-example.git
   > cd react-redux-firebase-message-example
   > npm install
   > npm start
