@@ -1,0 +1,196 @@
+#app-root h4 {
+  margin: 1rem 0;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 0.5rem;
+}
+
+button.btn:focus,
+button.btn.focus,
+button.btn:active:focus,
+button.btn:active.focus,
+button.btn.active:focus,
+button.btn.active.focus {
+  outline: none;
+}
+
+ul.message-list {
+  margin: 0;
+  padding: 0;
+}
+
+li.list-group-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+li.list-group-item button {
+  position: absolute;
+  top: 0;
+  padding: 0.2rem 0.5rem;
+  line-height: 1rem;
+  border-radius: 0;
+  background: none;
+  color: #666;
+  font-size: 12px;
+  display: none;
+}
+
+li.list-group-item button .icon {
+  position: relative;
+}
+
+
+li.list-group-item button.edit {
+  right: 80px;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+}
+
+li.list-group-item button.edit .icon {
+  background: url("./../img/icons/pencil.svg")  no-repeat;
+  background-size: contain;
+  height: 15px;
+  width: 15px;
+  top: -1px;
+  left:-1px;
+}
+
+li.list-group-item button.edit:hover {
+  color: #fff;
+  background-color: #666;
+}
+
+li.list-group-item button.edit:hover .icon {
+  background: url("./../img/icons/pencil_hover.svg")  no-repeat;
+  background-size: contain;
+  height: 15px;
+  width: 15px;
+}
+
+
+li.list-group-item button.delete {
+  right:0;
+  color: #CD202C;
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  min-width: 4.5rem;
+}
+
+li.list-group-item button.delete .icon {
+  background: url("./../img/icons/trashcan.svg")  no-repeat;
+  background-size: contain;
+  height: 15px;
+  width: 15px;
+  top: -1px;
+}
+
+li.list-group-item button.delete:hover {
+  color: #fff;
+  background-color: #CD202C;
+}
+
+li.list-group-item button.delete:hover .icon{
+  background: url("./../img/icons/trashcan_hover.svg")  no-repeat;
+  background-size: 15px 15px;
+  background-size: contain;
+  height: 15px;
+  width: 15px;
+}
+
+
+li.list-group-item:hover button {
+  display: flex;
+  align-items: center;
+}
+
+li.list-group-item button span.icon {
+  display:inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+form {
+  margin: 10px 0px;
+}
+
+form .form-group {
+  width: inherit;
+}
+
+form .form-group > div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+form button[name='submit']{
+  position: absolute;
+  right: 0;
+}
+
+.helper-text {
+  display: block;
+  position: relative;
+  margin-bottom: 0.5rem;
+  font-size: 0.6rem;
+  color: #CFD1CF;
+}
+
+li.edit-mode .edit-icon {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-right: 0.3rem;
+  position: relative;
+  background: url("./../img/icons/pencil.svg")  no-repeat;
+  background-size: contain;
+  top: 2px;
+  left: 0px;
+}
+
+li.edit-mode .helper-text {
+  color: #9c9c9c;
+}
+
+li.edit-mode button {
+  display: flex;
+  align-items: center;
+}
+
+li.edit-mode button .icon {
+  top:2px;
+}
+
+li.edit-mode button.edit .icon {
+  background: url("./../img/icons/save.svg")  no-repeat;
+  background-size: contain;
+  height: 15px;
+  width: 15px;
+  top: -1px;
+  left: 0px;
+}
+
+li.edit-mode button.edit:hover .icon {
+  background: url("./../img/icons/save_hover.svg")  no-repeat;
+  background-size: contain;
+  height: 15px;
+  width: 15px;
+}
+
+li.edit-mode input[type="text"] {
+  margin-top: 0.5rem;
+}
+
+form,
+form .form-group input[type="text"],
+li.edit-mode div {
+  width: 100%;
+}
