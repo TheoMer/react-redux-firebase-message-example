@@ -1,18 +1,34 @@
 # A simple message app using reactjs, redux, and firebase.
 
+
 ###Getting Started###
-Clone this repo. <br />
-Install dependencies. <br />
-Start Webpack. <br />
+[1.] Clone this repo. <br />
+[2.] Add firebase project credentials. <br />
+[3.] Install dependencies. <br />
+[4.] Start Webpack. <br />
 
 Use the following git+npm commands:
 
 ```
   > git clone https://github.com/chrisVillanueva/react-redux-firebase-message-example.git
   > cd react-redux-firebase-message-example
+  [ update config settings @ '/client/settings.js' with your firebase project info ]
   > npm install
   > npm start
 ```
+<br />
+
+
+###Firebase###
+To find your firebase web settings:
+
+[1.] Log into Firebase console. <br />
+[2.] Select your firebase project. <br />
+[3.] Go to Overview -> Project Settings. <br />
+[4.] Click on "Add Firebase to your web app". <br />
+[5.] Find <b>'var config'</b> object in the settings modal <br />
+     and  c/p into <b>'firebaseConfig'</b> @ ``` '/client/settings.js' ```
+
 <br />
 
 ####Credits and Acknowledgements#####
