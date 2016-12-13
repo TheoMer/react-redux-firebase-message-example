@@ -31,6 +31,12 @@ To find your firebase web settings:
 
 <br />
 
+###Demo###
+You can view a working demo on Heroku at:
+https://react-redux-firebase-messages.herokuapp.com/
+
+<br />
+
 ####Credits and Acknowledgements#####
 My firebase example is based on knowledge shared by
 <b>Stephen Grider</b> and <b>Chris Esplin</b>.
